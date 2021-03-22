@@ -1,0 +1,58 @@
+.main-header {
+    // display: grid;
+    // grid-template-columns: 35% 50%;
+    // justify-content: center;
+    // align-content: center;
+    // grid-gap: 0 2rem;
+    // position: relative;
+
+    height: 701px;
+    background-color: #014e56;
+    color: white;
+    padding-inline-start: rem(20px);
+
+    .header-navbar {
+        min-width: 900px;
+
+        .header-left-container {
+            width: rem(500px);
+            li:last-child {
+                margin-inline-start: rem(44px);
+            }
+        }
+
+        .contact-us-btn{
+            margin-inline-end: 20px;
+            margin-top: 10px;
+            border: 2px solid white;
+            background-color: #014e56;
+            color: white;
+        }
+    }
+
+    .header-hero {
+        margin-top: 266px;
+
+        p {
+            padding-left: 20px;
+        }
+    }
+
+    // .logo {
+    //     grid-row: span 3;
+    // }
+
+    // > *:not(.logo) {
+    //     grid-column: 2;
+    // }
+
+    // &::after {
+    //     content: "⌄";
+    //     position: absolute;
+    //     bottom: 1rem;
+    //     left: 50%;
+    //     font-size: 4.25rem;
+    //     transform: translateX(-50%);
+    //     color: $clr1;
+    // }
+}

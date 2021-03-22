@@ -1,0 +1,80 @@
+.main-app {
+    .hero-left-side {
+        background-color: lightgray;
+        width: 600px;
+        height: 820px;
+    }
+    .hero-right-side {
+        background-color: grey;
+        width: 840px;
+        height: 820px;
+    }
+    .middle-up-pic {
+        background-color: grey;
+        width: 541px;
+        height: 720px;
+    }
+
+    .middle-down-pic {
+        background-color: grey;
+        width: 541px;
+        height: 720px;
+    }
+
+    .pixel-perfect {
+        height: 761px;
+        background-color: #111111;
+        color: #ffffff;
+        align-items: center;
+
+        .pixel-perfect-left {
+            margin-inline-start: 165px;
+
+            .pixel-perfect-left-title {
+                width: 444px;
+                height: 87px;
+                font-family: spartan-bold, sans-serif;
+                font-size: 30px;
+            }
+
+            .pixel-perfect-left-descript {
+                width: 444px;
+                height: 79px;
+                font-family: spartan-regular, sans-serif;
+                font-size: 14px;
+            }
+        }
+
+        .pixel-perfect-right {
+            margin-inline-start: 126px;
+
+            ul {
+                padding: 0;
+
+                .item {
+                    border-bottom: 0.2px solid grey;
+                    margin-top: 19px;
+                }
+
+                .item-pic {
+                    width: 168px;
+                    height: 112px;
+                    img{
+                        width: 128px;
+                        height: 96px;
+                    }
+                }
+
+                .item-title {
+                    font-family: spartan-bold, sans-serif;
+                    font-size: 18px;
+                }
+
+                .item-desc {
+                    font-family: spartan-regular, sans-serif;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
